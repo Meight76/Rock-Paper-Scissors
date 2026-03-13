@@ -10,11 +10,6 @@ function computer_choice() {
             return "scissors";
     }
 }
-// Write a function to get what the human is going to play from console
-function human_choice() {
-    let choice = prompt('Choose "ROCK", "PAPER" or "SCISSORS": ').toLowerCase();
-    return choice;
-}
 // Declare two variables to keep track of scores
 let human_scores = 0;
 let computer_scores = 0;
